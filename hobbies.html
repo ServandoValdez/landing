@@ -6,29 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
 
-    <title>Document</title>
+    <title>Hobbies</title>
 </head>
-<body>
-    <div>
-
-        <header class="bg-gray-600">
-                    <header class="text-white flex justify-center">
+<body class="bg-white text-xl">
+    <div class="mx-5">
+        <header class="bg-black text-white flex justify-center rounded-md">
             <ul class="flex justify-between p-5">
-                <li>
+                <li class="pr-5 hover:text-gray-400">
                     <a href="./index.html">Inicio</a>
                 </li>
-                <li>
+                <li class="pr-5 text-gray-400">
                     Hobbies
                 </li>
-                <li>
-                    <a href="series.html">Series</a>
+                <li class="pr-5 hover:text-gray-400">
+                    <a href="./series.html">Series</a>
                 </li>
-                <li>
-                    <a href="">Contacto</a>
+                <li class="pr-5 hover:text-gray-400">
+                    <a href="./contacto.html">Contacto</a>
                 </li>
             </ul>
         </header>
-        </header>
+
+        <section class="bg-gray-400 mt-5 mx-3 mb-2 rounded-md">
+            <p class="text-center">
+                En mis tiempos libres suelo hacer ciertas actividades, algunas de ellas son:
+            </p>
+            <article class="p-5">
+                <p>-Jugar Videojuegos.</p> 
+                <p class="px-2">Actualmente me encuentro jugando los juegos de ori and the blist forest
+                    y Bioshock
+                </p>
+                <div class="flex">
+                    <img class="px-2"
+                    src="https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_OriAndTheBlindForestDefinitiveEdition_image1600w.jpg"
+                    alt="ori"
+                    height="250"
+                    width="300"
+                    />
+                    <img 
+                    src="https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_BioshockRemastered.jpg"
+                    alt="img"
+                    height="250"
+                    width="300"
+                    />
+                </div>
+            </article>
+            <article class="p-5">
+                <p>-Ver series y películas</p>
+                <p class="px-2">Suelo ver series de acción y me gustan mucho las películas de terror</p>
+               <div class="flex">
+                    <img class="px-2"
+                    src="https://www.tematika.com/media/catalog/Ilhsa/Imagenes/638699.jpg"
+                    alt="img"
+                    height="300"
+                    width="250"
+                    />
+                    <img 
+                    src="https://pics.filmaffinity.com/Misi_n_de_rescate-870564487-large.jpg"
+                    alt="img"
+                    height="300"
+                    width="250"
+                    />
+               </div>
+            </article>
+            <article class="p-5">
+                <p>Y programar, actualmente practico con React, he hecho un pokeapi y he estado practicando 
+                    haciendo una página que muestre información de videojuegos
+                </p>
+                <div class="flex justify-center">
+                    <img
+                    src="https://raw.githubusercontent.com/StewartGF/StewartGF/master/images/react.gif"
+                    alt="react"
+                    />
+                </div>
+            </article>
+        </section>
     </div>
 </body>
 </html>
